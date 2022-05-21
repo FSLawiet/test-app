@@ -1,8 +1,52 @@
-* {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@font-face {
+  font-family: "Komika Text";
+  src: url("fonts/KOMTXT__.ttf");
 }
-body
-{
-    display: grid;
-    padding: .5em;
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("fonts/PressStart2P.ttf");
+}
+/* Color Pallete 
+ CSS HEX
+  --claret: #871e3cff;
+  --bright-green: #66f22eff;
+  --blush: #e04f78ff;
+  --slimy-green: #3a9117ff;
+  --dark-sienna: #4d1524ff;
+
+  SCSS HEX
+$claret: #871e3cff;
+$bright-green: #66f22eff;
+$blush: #e04f78ff;
+$slimy-green: #3a9117ff;
+$dark-sienna: #4d1524ff;
+
+ SCSS Gradient
+$gradient-top: linear-gradient(0deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-right: linear-gradient(90deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-bottom: linear-gradient(180deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-left: linear-gradient(270deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-top-right: linear-gradient(45deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-bottom-right: linear-gradient(135deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-top-left: linear-gradient(225deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-bottom-left: linear-gradient(315deg, #871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+$gradient-radial: radial-gradient(#871e3cff, #66f22eff, #e04f78ff, #3a9117ff, #4d1524ff);
+*/
+* {
+  font-family: "Komika Text";
+}
+body {
+  display: grid;
+  padding: 0.5em;
+  color: #66f22eff;
+  background-color: #4d1524ff;
+}
+h1 {
+  font-family: "Press Start 2P";
+  color: black;
+  -webkit-text-fill-color: #66f22eff; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-height: 2.5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 3px 3px black;
 }
